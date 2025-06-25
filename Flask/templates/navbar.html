@@ -1,0 +1,18 @@
+<nav class="custom-navbar">
+  <div class="navbar-content">
+    <a href="{{ url_for('home') }}" class="navbar-logo">
+      <!-- Place this inside your navbar-logo anchor tag -->
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" style="vertical-align:middle; margin-right:8px;">
+         <path d="M3 17V7a1 1 0 0 1 1-1h6v2H5v8h14v-2h2v3a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Zm16-3h-2v-2a1 1 0 0 1 1-1h1v3Zm2-5V7a1 1 0 0 0-1-1h-5v2h4v2h2ZM8 21a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm8 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z" fill="#ff9800"/>
+      </svg>
+      <span class="logo-text">
+    <span class="logo-part1">Cuisine</span><span class="logo-part2">Clock</span>
+  </span>
+    </a>
+    <ul class="navbar-links">
+      <li><a href="{{ url_for('home') }}" {% if request.endpoint == 'home' %}class="active"{% endif %}>Home</a></li>
+      <li><a href="{{ url_for('predict') }}" {% if request.endpoint == 'predict' %}class="active"{% endif %}>Predict</a></li>
+      <li><a href="{{ url_for('about') }}" {% if request.endpoint == 'about' %}class="active"{% endif %}>About</a></li>
+    </ul>
+  </div>
+</nav>

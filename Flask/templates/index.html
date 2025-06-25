@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Delivery Time Prediction</title>
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  
+</head>
+<body class="home-page">
+  {% include 'navbar.html' %}
+  <div class="hero-section">
+    <div class="hero-card">
+      <h1 class="main-heading">Welcome to the Food Delivery Time Predictor!</h1>
+      <p class="main-para">Because Every Minute Counts When You’re Hungry!</p>
+      <a href="{{ url_for('predict') }}" class="main-btn">Predict Now!</a>
+    </div>
+  </div>
+</body>
+
+
+
+</html>
