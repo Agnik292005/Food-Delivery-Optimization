@@ -27,6 +27,7 @@ Built with a Flask backend and a modern HTML/CSS/JS UI.
 
 ## 🗂️ **Project File Directory Structure**
 ![File Directory Structure](./MarkdownImages/FileDirectory.png)
+
 Carefully notice the structure of the file directory. The file "rf.pkl", which is the model file, and supposed to be under the folder "models" hasn't been uploaded to github because of it's large size(272 mb). Please follow the instructions given after this section to download the model file from the given link and use it to run the project.
 
 
