@@ -81,5 +81,9 @@ After downloading, **place `rf.pkl` inside the `model/` directory**.
 
 ## 🙋‍♂️ Questions?
 
-Open an issue or contact [agnik.patra2023@vitstudent.ac.in].
+Open an issue or contact:
+- [agnik.patra2023@vitstudent.ac.in]
+- [anasmita.2023@vitstudent.ac.in]
+- [varsa.k2023@vitstudent.ac.in]
+- [uppalapati.asritha2023@vitstudent.ac.in]
 
