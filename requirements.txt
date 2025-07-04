@@ -1,3 +1,6 @@
+flask
+gunicorn==20.1.0
+gdown
 pandas
 numpy
 scikit-learn
@@ -5,5 +8,3 @@ matplotlib
 seaborn
 kagglehub
 xgboost
-gdown
-gunicorn==20.1.0
