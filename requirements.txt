@@ -6,3 +6,4 @@ seaborn
 kagglehub
 xgboost
 gdown
+gunicorn==20.1.0
